@@ -1,16 +1,19 @@
- {
+{
    "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
    "components": {
-  "model_variants": {
-     "default": {
-        "models": [
-           "file(balloon_1.qb)"
-        ]
-       }
-  },
-  "mob" : {
-     "model_origin" : { "x": -0.05, "y": 0, "z": 0 },
-     "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
-  }
-  }
+      "item" : {
+         "category" : "decoration"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(ballon_1_iconic.qb)"
+            ]
+         }
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   }
 }
