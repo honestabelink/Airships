@@ -8,7 +8,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(ballon_1_iconic.qb)"
+               "file(balloon_1_iconic.qb)"
             ]
          }
       },
